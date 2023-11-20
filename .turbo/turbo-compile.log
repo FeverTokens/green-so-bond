@@ -1,0 +1,15 @@
+
+> ft-diamond-base@1.0.0 compile /Users/mtoub/Documents/Work/FeverTokens/Projects/sc-bonds/implementations/diamond
+> pnpm exec hardhat compile
+
+TypeError: Member "RegisterStatusChanged" not found or not visible after argument-dependent lookup in type(contract IRegisterMetadataInternal).
+   --> contracts/register/snapshot/CouponSnapshotManagement.sol:167:22:
+    |
+167 |                 emit IRegisterMetadataInternal.RegisterStatusChanged(
+    |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Error HH600: Compilation failed
+
+For more info go to https://hardhat.org/HH600 or run Hardhat with --show-stack-traces
+ ELIFECYCLE  Command failed with exit code 1.
